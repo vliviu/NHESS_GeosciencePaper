@@ -9,7 +9,9 @@ Html page is here, from which you can check it:
 https://nhess.copernicus.org/articles/10/2527/2010/nhess-10-2527-2010.pdf
 
 1) The first method "LinearRegression.py" retrieves exactly the coefficients from the MMI equation (9):
-MMI = 8.824+0.417M −7.960logR+0.380PGA +1.105Ia −0.551CAV
+MMI = 8.824+0.417M −7.960logR+0.380PGA +1.105Ia −0.551CAV.
+
+
 This simple python scripts replaces all the work described in the paper by our GA-ANN combination.
 
 The 'data.csv' is the actual data from Table I in the paper and should be placed in a sub-folder called 'data'.
