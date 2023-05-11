@@ -16,7 +16,7 @@ This simple python scripts replaces all the work described in the paper by our G
 
 The 'data.csv' is the actual data from Table I in the paper and should be placed in a sub-folder called 'data'.
 
-2) The 2nd program  "nonlinearRegression.py" which uses keras with tensorflow backend verifies in an other the accuracy
+2) The 2nd program  "nonlinearRegression.py" which uses keras with tensorflow backend verifies in an other way the accuracy
 of our calculus, and it gives a RMSE error of approx. 0.75 %.
 
 The requirements.txt file specifies Python (3.9/3/10) packages that one should install (using conda/pip commands).
