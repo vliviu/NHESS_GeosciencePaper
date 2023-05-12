@@ -1,11 +1,17 @@
 # NHESS_GeosciencePaper
 This code and the paper  given below certifies the accuracy of discovering formulas using regression methods either linear or neliniar, using Artificial Intelligence
 between MMI ( modified Mercalli intensity) and related measurements:
+
   o PGA  peak ground acceleration
+
   o and PGV  peak ground velocity
+  
   o Arias intensity (Ia),
+  
   o acceleration response spectrum (Sa), and
+  
   o cumulative absolute velocity (CAV).
+  
  Our paper (me, L. Vladutu & G. Akis-Tselentis as authors) first published these formulas discovered by regression in:
  
 "An attempt to model the relationship between MMI attenuation and engineering ground-motion parameters 
