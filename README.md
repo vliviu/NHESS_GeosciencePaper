@@ -1,6 +1,13 @@
 # NHESS_GeosciencePaper
-This code certifies the accuracy of regression methods using Artificial Intelligence
-first published in our paper:
+This code and the paper  given below certifies the accuracy of discovering formulas using regression methods either linear or neliniar, using Artificial Intelligence
+between MMI ( modified Mercalli intensity) and related measurements:
+  o PGA  peak ground acceleration
+  o and PGV  peak ground velocity
+  o Arias intensity (Ia),
+  o acceleration response spectrum (Sa), and
+  o cumulative absolute velocity (CAV).
+ Our paper (me, L. Vladutu & G. Akis-Tselentis as authors) first published these formulas discovered by regression in:
+ 
 "An attempt to model the relationship between MMI attenuation and engineering ground-motion parameters 
 using artificial neural networks and genetic algorithms"  
 in Nat. Hazards Earth Syst. Sci., 10, 2527–2537, 2010
@@ -17,7 +24,16 @@ This simple python scripts replaces all the work described in the paper by our G
 The 'data.csv' is the actual data from Table I in the paper and should be placed in a sub-folder called 'data'.
 
 2) The 2nd program  "nonlinearRegression.py" which uses keras with tensorflow backend verifies in an other way the accuracy
-of our calculus, and it gives a RMSE error of approx. 0.75 %.
+of our calculus, and it discover a nonlinear dependencies between MMI and measurements (given above) with a RMSE error of approx. 0.75 %.
 
 The requirements.txt file specifies Python (3.9/3.10) packages that one should install (using conda/pip commands).
+
+Citation:
+________
+If you use this code or the results published in the paper, please cite our work, with details given above.
+
+License:
+________
+The code is released under the MIT license.
+
 
