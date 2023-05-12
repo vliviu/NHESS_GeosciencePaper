@@ -34,6 +34,14 @@ of our calculus, and it discover a nonlinear dependencies between MMI and measur
 
 The requirements.txt file specifies Python (3.9/3.10) packages that one should install (using conda/pip commands).
 
+P.S. I've also added the jupyter notebook source 'nonlinearRegression.ipynb'
+ 
+ and cleanPyCode_generatedFromJupyter.py which takes a Python source code generated from within jupyter with the command
+!jupyter notebook --to script nonlinearRegression.ipynb
+and eliminates all the "dirt" i.e. lines like # [],  #[1]: .... a.s.o. and surrounding lines and generates a clean functional python source (in this case cleaned_nonlinearRegression.py).
+
+HTH !
+
 Citation:
 ________
 If you use this code or the results published in the paper, please cite our work, with details given above.
