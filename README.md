@@ -12,7 +12,7 @@ between MMI ( modified Mercalli intensity) and related measurements:
   
   o cumulative absolute velocity (CAV).
   
- Our paper (me, L. Vladutu & G. Akis-Tselentis as authors) first published these formulas discovered by regression in:
+ Our paper (by L. Vladutu & G. Akis-Tselentis as authors) first published these formulas discovered by regression in:
  
 "An attempt to model the relationship between MMI attenuation and engineering ground-motion parameters 
 using artificial neural networks and genetic algorithms"  
