@@ -31,20 +31,20 @@ This **LinearRegression.py** python scripts replaces all the work described in t
 
 The 'data.csv' is the actual data from Table I in the paper and should be placed in a sub-folder called 'data'.
 
-2) The 2nd program  "nonlinearRegression.py" which uses keras with tensorflow backend verifies in an other way the accuracy
+2) The 2nd program  "**nonlinearRegression.py**" which uses **keras with tensorflow** backend verifies in an other way the accuracy
 of our calculus, and it discover a nonlinear dependencies between MMI and measurements (given above) with a RMSE error of approx. 0.75 %.
 
-The requirements.txt file specifies Python (3.9/3.10) packages that one should install (using conda/pip commands).
+The **requirements.txt** file specifies Python (3.9/3.10) packages that one should install (using conda/pip commands).
 
 P.S. I've also added the jupyter notebook source 'nonlinearRegression.ipynb'
  
- and cleanPyCode_generatedFromJupyter.py which takes a Python source code generated from within jupyter with the command
+ and cleanPyCode_generatedFromJupyter.py which takes a Python source code generated from within a jupyter notebook with the command
  
 !jupyter notebook --to script nonlinearRegression.ipynb
 
 and eliminates all the "dirt" i.e. lines like # [],  #[1]: .... a.s.o. and surrounding lines and generates a clean functional python source (in this case cleaned_nonlinearRegression.py).
 
-HTH !
+Hope that helps !
 
 Citation:
 ________
