@@ -8,7 +8,7 @@ between MMI ( modified Mercalli intensity) and related measurements:
   
   o Arias intensity (Ia),
   
-  o R-> refers to the distance from the earthquake source to the site of interest, expressed in kilometers
+  o R-> refers to the distance from the earthquake source to the site of interest, expressed in kilometers, logR=log(R)
   
   o acceleration response spectrum (Sa), and
   
